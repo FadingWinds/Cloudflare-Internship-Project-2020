@@ -1,0 +1,6 @@
+name = "wenqing-project"
+type = "javascript"
+account_id = "d76e8cfdc7d66a8548c2c1f53e09eeab"
+workers_dev = true
+route = ""
+zone_id = ""
