@@ -57,7 +57,7 @@ async function handleRequest(request) {
   const cookie_init = {
   	method: 'GET',
   	headers: {
-  		'Set-Cookie': 'id=ckforpage+bi_rand.toString(); Max-Age = 259200; Secure'
+  		'Set-Cookie': 'id=bi_rand.toString(); Max-Age = 259200; Secure'
   	},
   };
   const url_resp = await fetch(urls.variants[bi_rand], cookie_init);
